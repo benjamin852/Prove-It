@@ -14,6 +14,7 @@ function App() {
     <Provider store={store}>
       <div class="home-bg" style={{ overflowX: "hidden" }}>
         <Header />
+        {/* adding a comment÷ */}
       </div>
     </Provider>
   );
