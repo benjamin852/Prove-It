@@ -44,7 +44,6 @@ class NewsLetter extends Component {
                 class="newsLetterImage"
                 data-aos="zoom-in"
                 data-aos-offset="200"
-                // data-aos-delay="50"
                 data-aos-duration="1000"
                 src={require("../../Assets/Logo/newsletter.png")}
               />
@@ -58,7 +57,6 @@ class NewsLetter extends Component {
               class="textFieldFName"
               data-aos="slide-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             />
             <input
@@ -67,7 +65,6 @@ class NewsLetter extends Component {
               class="textFieldLName"
               data-aos="slide-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             />
             <input
@@ -76,7 +73,6 @@ class NewsLetter extends Component {
               class="textFieldEmail"
               data-aos="slide-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             />
           </div>
@@ -86,7 +82,12 @@ class NewsLetter extends Component {
               class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-xs-8"
               style={{ padding: "0% 6% 0% 6%" }}
             >
-              <button id="newsLetterButton" class="mt-4 mb-5 btn subcribeButton">Subscribe</button>
+              <button
+                id="newsLetterButton"
+                class="mt-4 mb-5 btn subcribeButton"
+              >
+                Subscribe
+              </button>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2 col-xs-2" />
           </div>

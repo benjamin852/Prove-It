@@ -35,35 +35,11 @@ class Intro extends Component {
       <React.Fragment>
         <div class="container-fluid">
           <div class="row justify-content-center">
-            {/* <div
-              class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5"
-              data-aos="slide-right"
-              data-aos-offset="200"
-              // data-aos-delay="50"
-              data-aos-duration="1000"
-            > */}
-            {/* <div class="mt-5 mb-5">
-                <div class="row">
-                  <img
-                    class="intro-logo"
-                    src={require("../../Assets/Logo/intro-logo.png")}
-                    alt="logo"
-                  />
-                </div>
-                <div class="row">
-                  <h2 class="intro-title">What is Prove It ?</h2>
-                </div>
-                <div class="row">
-                  <button class="btn btn-lg btn-intro">Read Full Doc</button>
-                </div>
-              </div> */}
-            {/* </div> */}
             <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
               <div
                 class="flow-control"
                 data-aos="slide-left"
                 data-aos-offset="200"
-                // data-aos-delay="50"
                 data-aos-duration="1000"
               >
                 <div class="carousel-inner intro-carousel">
@@ -109,7 +85,6 @@ class Intro extends Component {
                     class="intro-bottom-box"
                     data-aos="zoom-in-right"
                     data-aos-offset="200"
-                    // data-aos-delay="50"
                     data-aos-duration="1000"
                   >
                     <div class="row">
@@ -135,7 +110,6 @@ class Intro extends Component {
                     class="intro-bottom-box"
                     data-aos="zoom-in-right"
                     data-aos-offset="200"
-                    // data-aos-delay="50"
                     data-aos-duration="1000"
                   >
                     <div class="row">
@@ -163,7 +137,6 @@ class Intro extends Component {
                     class="intro-bottom-box"
                     data-aos="zoom-in-left"
                     data-aos-offset="200"
-                    // data-aos-delay="50"
                     data-aos-duration="1000"
                   >
                     <div class="row">
@@ -192,7 +165,6 @@ class Intro extends Component {
                     class="intro-bottom-box"
                     data-aos="zoom-in-left"
                     data-aos-offset="200"
-                    // data-aos-delay="50"
                     data-aos-duration="1000"
                   >
                     <div class="row">

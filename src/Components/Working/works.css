@@ -6,7 +6,6 @@
   font-size: 35px;
   padding: 3px;
   font-weight: 600;
-  /* animation: animateWorSpan 2s; */
 }
 
 .workSpan:hover {
@@ -28,10 +27,6 @@
   font-size: 15px;
   color: #1c1e1c;
 }
-
-/* .workContentAnimation {
-  animation: workContentAnimateDownToUp 2s;
-} */
 
 @keyframes workContentAnimateDownToUp {
   0% {

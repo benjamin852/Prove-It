@@ -57,7 +57,6 @@ class Team extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 teamFirstRow"
               data-aos="fade-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -78,7 +77,6 @@ class Team extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 teamFirstRow"
               data-aos="fade-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -99,7 +97,6 @@ class Team extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 teamFirstRow"
               data-aos="fade-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -119,7 +116,6 @@ class Team extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 teamSecondRow"
               data-aos="fade-left"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -137,7 +133,6 @@ class Team extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 teamSecondRow"
               data-aos="fade-left"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -155,7 +150,6 @@ class Team extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 teamSecondRow"
               data-aos="fade-left"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img

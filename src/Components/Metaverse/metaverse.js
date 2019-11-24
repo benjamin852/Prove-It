@@ -44,7 +44,6 @@ class Metaverse extends Component {
                 class="mt-4 mb-5 btn metaverseSpan"
                 data-aos="zoom-in"
                 data-aos-offset="200"
-                // data-aos-delay="50"
                 data-aos-duration="1000"
               >
                 Metaverse
@@ -57,7 +56,6 @@ class Metaverse extends Component {
               class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 mt-4 firstFrame"
               data-aos="flip-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -75,7 +73,6 @@ class Metaverse extends Component {
               class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 mt-4 secondFrame"
               data-aos="flip-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -92,7 +89,6 @@ class Metaverse extends Component {
               class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 mt-4 thirdFrame"
               data-aos="flip-left"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -110,7 +106,6 @@ class Metaverse extends Component {
               class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12 mt-4 fourthFrame"
               data-aos="flip-left"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img

@@ -51,7 +51,6 @@ class CreateTab extends Component {
           </h3>
           <span
             style={{
-              // fontFamily: "Proxima Nova",
               fontWeight: "500",
               color: "#000000"
             }}
@@ -66,7 +65,6 @@ class CreateTab extends Component {
               <h3
                 style={{
                   color: "#050607",
-                  // fontFamily: "Proxima Nova",
                   fontWeight: "500"
                 }}
               >
@@ -90,7 +88,6 @@ class CreateTab extends Component {
                       this.handleFileName(e.target.files);
                       this.setState({ file: e.target.files });
                     }}
-                    // accept=".pdf"
                     name="selectedFile"
                     style={{ display: "none" }}
                     class="inputfile inputfile-6"
@@ -280,9 +277,7 @@ class CreateTab extends Component {
 
 const mapStateToProps = state => ({
   SuccessMsg: state.ProveitReducer.successMsg,
-  // SuccessMsg: state.ProveitReducer.getStoreSuccessMsg,
   ErrorMsg: state.ProveitErrorReducer.StoreErrorMsg
-  // ErrorMsg: state.ProveitErrorReducer.getStoreErrorMsg
 });
 
 export default connect(mapStateToProps, { postStoreAction, getStoreAction })(

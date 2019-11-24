@@ -1,7 +1,5 @@
 .newsLetterImage {
   width: 100%;
-  /* animation-name: rightToLeft; */
-  /* animation-duration: 2s; */
 }
 .textFieldFName {
   width: 100%;
@@ -14,8 +12,6 @@
   font-weight: 400;
   color: #858686;
   outline: none;
-  /* animation-name: leftToRight;
-  animation-duration: 2s; */
   background: transparent;
 }
 .textFieldLName {
@@ -29,8 +25,6 @@
   font-weight: 400;
   color: #858686;
   outline: none;
-  /* animation-name: leftToRight;
-  animation-duration: 2s; */
   background: transparent;
 }
 .textFieldEmail {
@@ -44,11 +38,9 @@
   font-weight: 400;
   color: #858686;
   outline: none;
-  /* animation-name: leftToRight;
-  animation-duration: 2s; */
   background: transparent;
 }
-::placeholder{
+::placeholder {
   color: rgb(143, 143, 143);
   font-size: 20px;
 }
@@ -60,10 +52,6 @@
   font-size: 35px;
   padding: 3px;
   outline: none;
-  /* animation-name: animateSubscribeBtn;
-  animation-duration: 1s;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards; */
   border: 2px solid #17bcde;
 }
 .subcribeButton:hover {

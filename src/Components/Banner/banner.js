@@ -36,13 +36,7 @@ class Banner extends Component {
         <div class="container-fluid">
           <div class="row">
             <div class="col-2 col-sm-3 col-md-4 col-lg-4 col-xl-4"> </div>
-            <div
-              class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 logo-text-container"
-              //   data-aos="zoom-in"
-              //   data-aos-offset="200"
-              //   // data-aos-delay="50"
-              //   data-aos-duration="1000"
-            >
+            <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 logo-text-container">
               <div class="row">
                 <div class="col">
                   <div class="text-center company-logo-section">
@@ -60,12 +54,10 @@ class Banner extends Component {
                 <div class="col">
                   <div class="text-center mt-2 text-animation">
                     <b class="text-center" style={{ fontSize: 20 }}>
-                      {/* <i> */}
                       Prove It works with accredited professional notaries,
                       institutional partners and jurisdictional legislatures to
                       record and prove the existence, substance, and property of
                       a claim
-                      {/* </i> */}
                     </b>
                   </div>
                 </div>

@@ -21,7 +21,6 @@ class VerifyTab extends Component {
 
   checkHash = async hash => {
     const interval = setInterval(async () => {
-      // const hashURL = `https://explorer-testnet.mvs.org/mit/${hash}`;
       const hashURL = `https://proveit-muffins.firebaseapp.com/api/prove?hash=${hash}`;
       const response = await axios.get(hashURL);
       console.log(response.data);
@@ -58,7 +57,6 @@ class VerifyTab extends Component {
         <div class="container">
           <h3
             style={{
-              // color: "#6F706F",
               fontWeight: "800"
             }}
           >
@@ -70,7 +68,6 @@ class VerifyTab extends Component {
                 class="col-12"
                 style={{
                   textAlign: "center"
-                  // marginBottom: "-65px"
                 }}
               ></div>
               {this.props.proveSuccessMessage.hasPassword ? (
@@ -121,13 +118,6 @@ class VerifyTab extends Component {
                     >
                       <button
                         disabled={this.state.password ? false : true}
-                        // onClick={() => {
-                        //   this.props.getDownloadAction(
-                        //     this.state.hash,
-                        //     this.state.password,
-                        //     this
-                        //   );
-                        // }}
                         class="mt-4 mb-5 btn btn-verify"
                       >
                         Download
@@ -141,7 +131,6 @@ class VerifyTab extends Component {
               )}
               <div class="col-12" style={{ marginTop: "-20px" }}>
                 <div class="panel">
-                  {/* <details style={{ overflowX: "auto", overflowY: "hidden" }}> */}
                   <summary>
                     <ul>
                       <li class="titleValue">
@@ -209,7 +198,6 @@ class VerifyTab extends Component {
                       backgroundColor: "#F9F7F7",
                       padding: "2%",
                       border: "2px solid #D4D1D0",
-                      // color: "#969696",
                       fontSize: "20px",
                       display: "inline-block",
                       borderRadius: "14px",
@@ -234,7 +222,6 @@ class VerifyTab extends Component {
               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h2
                   style={{
-                    // color: "#6F706F",
                     fontWeight: "600"
                   }}
                 >

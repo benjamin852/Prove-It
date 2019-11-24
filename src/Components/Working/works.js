@@ -39,17 +39,11 @@ class Working extends Component {
             <div
               class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-xs-8"
               style={{ padding: "0% 6% 0% 6%" }}
-
-              // data-aos-easing="ease-in-out"
-              // data-aos-mirror="true"
-              // data-aos-once="false"
-              // data-aos-anchor-placement="top-center"
             >
               <span
                 class="mt-4 mb-5 btn workSpan"
                 data-aos="zoom-in"
                 data-aos-offset="200"
-                // data-aos-delay="50"
                 data-aos-duration="1000"
               >
                 How does it work?
@@ -62,7 +56,6 @@ class Working extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 workContentAnimation"
               data-aos="zoom-in-right"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -85,7 +78,6 @@ class Working extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 workContentAnimation"
               data-aos="zoom-in"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -97,9 +89,9 @@ class Working extends Component {
               </div>
               <div style={{ marginTop: "10px" }}>
                 <span class="workDesc">
-                  We group multiple fingerprints into a
-                  merkle tree on a regular basis. The root hash of that tree will then be written
-                  to the Metaverse blockchain.
+                  We group multiple fingerprints into a merkle tree on a regular
+                  basis. The root hash of that tree will then be written to the
+                  Metaverse blockchain.
                 </span>
               </div>
             </div>
@@ -107,7 +99,6 @@ class Working extends Component {
               class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-4 workContentAnimation"
               data-aos="zoom-in-left"
               data-aos-offset="200"
-              // data-aos-delay="50"
               data-aos-duration="1000"
             >
               <img
@@ -120,9 +111,8 @@ class Working extends Component {
               <div style={{ marginTop: "10px" }}>
                 <span class="workDesc">
                   In order to prove the timestamp of your document independently
-                  we will provide you with the path through a merkle
-                  tree as well as the Blockchain transaction as a proof of
-                  record.
+                  we will provide you with the path through a merkle tree as
+                  well as the Blockchain transaction as a proof of record.
                 </span>
               </div>
             </div>

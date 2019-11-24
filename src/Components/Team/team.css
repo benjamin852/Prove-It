@@ -6,7 +6,6 @@
   font-size: 35px;
   padding: 3px;
   font-weight: 600;
-  /* animation: teamUpToDown 2s; */
 }
 
 .teamSpan:hover {
@@ -29,15 +28,6 @@
   font-size: 18px;
   color: #1c1e1c;
 }
-
-/* .teamFirstRow {
-  animation: moveTeamLeftToRight 2s;
-}
-.teamSecondRow {
-  animation: moveTeamRightToLeft 2s;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
-} */
 
 @keyframes teamUpToDown {
   0% {

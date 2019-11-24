@@ -24,7 +24,6 @@ class Header extends Component {
                 src={require("../../Assets/Logo/home-button.png")}
                 alt="home"
               />
-              {/* <span class="display">HOME</span> */}
             </a>
           </div>
           <button
@@ -46,7 +45,6 @@ class Header extends Component {
                   onClick={() => this.setState({ currentTab: 0 })}
                   href="#tab"
                 >
-                  {/* <div class="motion"></div> */}
                   Create
                 </a>
               </li>
