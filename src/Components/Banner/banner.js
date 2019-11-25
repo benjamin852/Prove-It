@@ -48,12 +48,10 @@ class Banner extends Component {
                   </div>
                 </div>
               </div>
-              <br />
-              <br />
               <div class="row">
                 <div class="col">
                   <div class="text-center mt-2 text-animation">
-                    <b class="text-center" style={{ fontSize: 20 }}>
+                    <b class="text-center" style={{ fontSize: 18 }}>
                       Prove It works with accredited professional notaries,
                       institutional partners and jurisdictional legislatures to
                       record and prove the existence, substance, and property of
