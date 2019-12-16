@@ -278,7 +278,8 @@ class VerifyTab extends Component {
             >
               <button
                 class="mt-4 mb-5 btn btn-verify"
-                style={{ fontWeight: "700" }}
+                style={{ fontWeight: "700",
+              borderRadius : "30px" }}
                 onClick={() => {
                   if (!this.state.hashExists) {
                     this.checkHash(this.state.hash);

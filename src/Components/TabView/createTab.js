@@ -94,8 +94,21 @@ class CreateTab extends Component {
                     data-multiple-caption="{count} files selected"
                     multiple
                   />
-                  <label class="w-100 h-100 file" for="fileInput">
-                    Choose a file
+                  <label
+                    class="btn btn-lg w-100 file"
+                    for="fileInput"
+                    style={{
+                      backgroundColor: "#F9F7F7",
+                      padding: "2% 20px",
+                      border: "2px solid #D4D1D0",
+                      fontSize: "20px",
+                      display: "inline-block",
+                      borderRadius: "14px",
+                      color: "#212529",
+                      cursor: "pointer"
+                    }}
+                  >
+                    Browse
                   </label>
                 </div>
                 <div
