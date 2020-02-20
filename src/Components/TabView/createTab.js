@@ -104,7 +104,7 @@ class CreateTab extends Component {
                       fontSize: "20px",
                       display: "inline-block",
                       borderRadius: "14px",
-                      color: "#212529",
+                      color: "#212529w",
                       cursor: "pointer"
                     }}
                   >
